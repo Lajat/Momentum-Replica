@@ -1,0 +1,40 @@
+import React from 'react';
+import Like from './Like/Like';
+import Todo from './Todo/Todo';
+import logo from './logo.svg';
+import VideoCard from './VideoCard/VideoCard';
+import Details from './Details/Details';
+import {BrowserRouter,Route, Switch} from 'react-router-dom';
+import './App.css';
+
+function App() {
+  return (
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+    // <Like />
+    // <BrowserRouter>
+    // <Switch>
+    // <Route path="/details" component={Details} />
+    // <Route exact path="/" component={VideoCard}/>
+    // </Switch>
+    // </BrowserRouter>
+    
+    <Todo />
+  );
+}
+
+export default App;
