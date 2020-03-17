@@ -1,9 +1,9 @@
 import React from 'react';
-import Like from './Like/Like';
+// import Like from './Like/Like';
 import Todo from './Todo/Todo';
 import logo from './logo.svg';
-import VideoCard from './VideoCard/VideoCard';
-import Details from './Details/Details';
+// import VideoCard from './VideoCard/VideoCard';
+// import Details from './Details/Details';
 import {BrowserRouter,Route, Switch} from 'react-router-dom';
 import './App.css';
 
